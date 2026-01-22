@@ -1,0 +1,26 @@
+{
+  "personality_types": {
+    "introvert": {
+      "expressions": ["I think", "maybe", "perhaps", "in my opinion", "personally"],
+      "sentence_starters": ["I feel like", "I think that", "Maybe it's just me", "Personally"],
+      "hedging": ["kind of", "sort of", "a bit", "somewhat", "rather"],
+      "preferences": ["quiet", "peaceful", "alone time", "small groups", "deep conversations"]
+    },
+    "extrovert": {
+      "expressions": ["definitely", "absolutely", "for sure", "totally", "completely"],
+      "sentence_starters": ["I know", "Obviously", "Clearly", "Everyone knows"],
+      "emphasis": ["really", "super", "very", "extremely", "incredibly"],
+      "preferences": ["party", "crowd", "social", "meeting people", "group activities"]
+    },
+    "optimist": {
+      "expressions": ["bright side", "silver lining", "things will work out", "positive vibes"],
+      "sentence_starters": ["At least", "The good news is", "On the bright side", "Fortunately"],
+      "words": ["hope", "opportunity", "chance", "possibility", "potential"]
+    },
+    "pessimist": {
+      "expressions": ["worst case", "probably won't work", "doubt it", "not likely"],
+      "sentence_starters": ["Unfortunately", "The problem is", "I doubt", "Probably not"],
+      "words": ["problem", "issue", "concern", "worry", "doubt"]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "total_items": 23247,
+  "average_quality": 0.6001075407580305,
+  "pipeline_completed": "2025-10-02T18:36:46.631960",
+  "rules_used": [
+    "colloquialisms",
+    "humanization_rules",
+    "contractions",
+    "human_errors",
+    "conversational_starters",
+    "emotion_words"
+  ],
+  "output_file": "data/final_output/final_humanized_output_20251002_183646.json"
+}

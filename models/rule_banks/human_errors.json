@@ -1,0 +1,43 @@
+{
+  "natural_variations": {
+    "sentence_starters": {
+      "variety": [
+        "So",
+        "Well",
+        "Now",
+        "But",
+        "And",
+        "Plus",
+        "Also"
+      ],
+      "frequency": 0.3
+    },
+    "filler_words": {
+      "casual": [
+        "actually",
+        "really",
+        "pretty",
+        "quite",
+        "rather"
+      ],
+      "frequency": 0.2
+    }
+  },
+  "informal_expressions": {
+    "intensifiers": [
+      "super",
+      "really",
+      "pretty",
+      "quite",
+      "absolutely",
+      "totally"
+    ],
+    "softeners": [
+      "kind of",
+      "sort of",
+      "somewhat",
+      "a bit",
+      "rather"
+    ]
+  }
+}

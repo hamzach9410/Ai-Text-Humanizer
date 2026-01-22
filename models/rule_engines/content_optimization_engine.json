@@ -1,0 +1,28 @@
+{
+  "optimization_rules": {
+    "readability_enhancement": {
+      "target_flesch_score": "60-70",
+      "average_sentence_length": "15-20",
+      "syllables_per_word": "1.5-2.0",
+      "passive_voice_limit": 0.1
+    },
+    "engagement_boosters": {
+      "questions_per_paragraph": 0.2,
+      "personal_pronouns": ["you", "we", "I", "us"],
+      "action_words": ["discover", "learn", "explore", "find", "get"],
+      "emotional_triggers": ["exciting", "amazing", "surprising", "important"]
+    },
+    "ai_detection_avoidance": {
+      "vary_paragraph_length": true,
+      "add_imperfections": 0.05,
+      "use_colloquialisms": 0.3,
+      "include_personal_opinions": true
+    }
+  },
+  "quality_metrics": {
+    "human_score_target": 0.95,
+    "readability_target": "B+",
+    "engagement_target": "high",
+    "originality_target": 0.9
+  }
+}

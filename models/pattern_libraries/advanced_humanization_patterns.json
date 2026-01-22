@@ -1,0 +1,44 @@
+{
+  "ai_detection_bypass_patterns": {
+    "robotic_starters": [
+      "It is important to note that",
+      "It should be noted that",
+      "It is worth mentioning that",
+      "It is significant to observe that",
+      "One must consider that",
+      "It is essential to understand that",
+      "It is crucial to recognize that",
+      "It is vital to acknowledge that"
+    ],
+    "human_replacements": [
+      "",
+      "Actually, ",
+      "You know, ",
+      "Here's the thing - ",
+      "What's interesting is ",
+      "The reality is ",
+      "Basically, ",
+      "Simply put, ",
+      "In fact, ",
+      "Honestly, ",
+      "Let me tell you, ",
+      "The way I see it, "
+    ],
+    "sentence_variety": {
+      "short_punchy": ["That's it.", "Simple as that.", "End of story.", "Period."],
+      "conversational": ["You get the idea.", "Make sense?", "See what I mean?", "Right?"],
+      "transitional": ["Anyway,", "Moving on,", "That said,", "On another note,"]
+    }
+  },
+  "natural_flow_patterns": {
+    "paragraph_starters": [
+      "Look,", "Listen,", "Here's what happened:", "So here's the deal:",
+      "Let me break it down:", "Picture this:", "Think about it:",
+      "The bottom line is:", "At the end of the day,", "When it comes down to it:"
+    ],
+    "connectors": {
+      "casual": ["and", "but", "so", "plus", "also", "then", "now"],
+      "formal": ["however", "therefore", "furthermore", "moreover", "consequently"]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "temporal_context": {
+    "time_sensitive_language": {
+      "current_events": ["trending", "viral", "breaking", "latest"],
+      "seasonal": ["spring_cleaning", "back_to_school", "holiday_season"],
+      "generational": ["millennial", "gen_z", "boomer", "digital_native"]
+    },
+    "urgency_indicators": {
+      "immediate": ["now", "urgent", "asap", "critical"],
+      "soon": ["shortly", "upcoming", "approaching", "imminent"],
+      "eventual": ["eventually", "in_time", "down_the_road", "future"]
+    }
+  },
+  "cultural_sensitivity": {
+    "inclusive_language": {
+      "gender_neutral": ["they", "folks", "everyone", "people"],
+      "accessibility_aware": ["person_with_disability", "accessible", "inclusive"],
+      "culturally_sensitive": ["diverse", "multicultural", "global", "inclusive"]
+    },
+    "avoid_assumptions": [
+      "everyone_knows",
+      "obviously",
+      "clearly",
+      "of_course"
+    ]
+  },
+  "domain_expertise": {
+    "confidence_levels": {
+      "expert": ["definitely", "certainly", "proven", "established"],
+      "informed": ["likely", "probably", "generally", "typically"],
+      "cautious": ["might", "could", "possibly", "potentially"]
+    },
+    "credibility_markers": {
+      "experience_based": ["in_my_experience", "I've_found", "from_what_I've_seen"],
+      "research_based": ["studies_show", "research_indicates", "data_suggests"],
+      "opinion_based": ["I_think", "in_my_opinion", "personally"]
+    }
+  }
+}

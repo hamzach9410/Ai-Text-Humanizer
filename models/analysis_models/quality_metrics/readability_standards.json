@@ -1,0 +1,24 @@
+{
+  "flesch_reading_ease": {
+    "very_easy": {"min": 90, "max": 100, "description": "Very easy to read"},
+    "easy": {"min": 80, "max": 89, "description": "Easy to read"},
+    "fairly_easy": {"min": 70, "max": 79, "description": "Fairly easy to read"},
+    "standard": {"min": 60, "max": 69, "description": "Standard reading level"},
+    "fairly_difficult": {"min": 50, "max": 59, "description": "Fairly difficult to read"},
+    "difficult": {"min": 30, "max": 49, "description": "Difficult to read"},
+    "very_difficult": {"min": 0, "max": 29, "description": "Very difficult to read"}
+  },
+  "flesch_kincaid_grade": {
+    "elementary": {"min": 1, "max": 6, "description": "Elementary school level"},
+    "middle_school": {"min": 7, "max": 8, "description": "Middle school level"},
+    "high_school": {"min": 9, "max": 12, "description": "High school level"},
+    "college": {"min": 13, "max": 16, "description": "College level"},
+    "graduate": {"min": 17, "max": 20, "description": "Graduate level"}
+  },
+  "human_likeness_thresholds": {
+    "contraction_ratio": {"optimal": 0.15, "minimum": 0.05},
+    "personal_pronoun_ratio": {"optimal": 0.08, "minimum": 0.02},
+    "emotional_word_ratio": {"optimal": 0.05, "minimum": 0.01},
+    "sentence_variety_score": {"optimal": 0.7, "minimum": 0.4}
+  }
+}

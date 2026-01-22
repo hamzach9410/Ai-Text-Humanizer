@@ -1,0 +1,31 @@
+{
+  "punctuation_patterns": {
+    "casual_punctuation": {
+      "ellipsis_usage": ["...", "…"],
+      "exclamation_frequency": 0.1,
+      "question_marks": ["?", "??"],
+      "dash_usage": ["—", "--", "-"]
+    },
+    "sentence_endings": {
+      "period_alternatives": [".", "!", "..."],
+      "weights": [0.7, 0.2, 0.1],
+      "context_dependent": true
+    },
+    "comma_patterns": {
+      "oxford_comma": 0.8,
+      "pause_commas": true,
+      "list_formatting": "natural"
+    },
+    "quotation_styles": {
+      "direct_quotes": "\"text\"",
+      "emphasis_quotes": "'text'",
+      "air_quotes": "so-called 'text'"
+    }
+  },
+  "humanization_rules": {
+    "avoid_perfect_punctuation": true,
+    "natural_pauses": true,
+    "conversational_flow": true,
+    "emotional_punctuation": 0.15
+  }
+}

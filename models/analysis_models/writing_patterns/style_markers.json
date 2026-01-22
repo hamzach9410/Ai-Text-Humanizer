@@ -1,0 +1,26 @@
+{
+  "casual_markers": {
+    "contractions": ["don't", "can't", "won't", "I'm", "you're", "it's"],
+    "informal_words": ["cool", "awesome", "great", "stuff", "things", "get", "got"],
+    "sentence_starters": ["So", "Well", "Now", "But", "And", "Plus"],
+    "intensifiers": ["really", "pretty", "super", "totally", "absolutely"]
+  },
+  "professional_markers": {
+    "formal_transitions": ["furthermore", "moreover", "consequently", "therefore"],
+    "business_vocabulary": ["implement", "optimize", "leverage", "facilitate", "enhance"],
+    "objective_language": ["analysis shows", "data indicates", "results demonstrate"],
+    "action_words": ["achieve", "deliver", "execute", "establish", "develop"]
+  },
+  "academic_markers": {
+    "scholarly_terms": ["methodology", "framework", "paradigm", "hypothesis", "empirical"],
+    "citation_patterns": ["according to", "research indicates", "studies show", "evidence suggests"],
+    "analytical_language": ["examine", "investigate", "analyze", "evaluate", "assess"],
+    "hedging_language": ["may", "might", "could", "appears to", "suggests that"]
+  },
+  "creative_markers": {
+    "descriptive_words": ["vivid", "striking", "haunting", "mesmerizing", "captivating"],
+    "sensory_language": ["gleaming", "whispered", "fragrant", "silky", "thunderous"],
+    "metaphorical_expressions": ["like", "as if", "resembled", "mirrored", "echoed"],
+    "emotional_vocabulary": ["yearning", "exhilarating", "melancholy", "euphoric", "poignant"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "training_examples": [
+    {
+      "input": "The utilization of artificial intelligence in contemporary digital marketing strategies has revolutionized the manner in which organizations engage with their target demographics.",
+      "output": "Artificial intelligence has completely changed how companies connect with their audiences through digital marketing. These smart tools help businesses understand customer behavior and create more effective campaigns."
+    },
+    {
+      "input": "This technological advancement facilitates the optimization of campaign performance metrics through data-driven insights and predictive analytics.",
+      "output": "This technology helps marketers improve their campaign results by using data analysis and predictions to make better decisions."
+    }
+  ],
+  "model_configurations": {
+    "academic_writer": {
+      "temperature": 0.3,
+      "max_tokens": 1024,
+      "top_p": 0.9
+    },
+    "creative_storyteller": {
+      "temperature": 0.8,
+      "max_tokens": 2048,
+      "top_p": 0.95
+    }
+  }
+}

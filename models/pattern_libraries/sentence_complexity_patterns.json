@@ -1,0 +1,25 @@
+{
+  "sentence_complexity": {
+    "simple_sentences": {
+      "structure": "Subject + Verb + Object",
+      "examples": ["I like coffee.", "She runs fast.", "They work hard."],
+      "usage_percentage": 0.4
+    },
+    "compound_sentences": {
+      "structure": "Independent clause + conjunction + Independent clause",
+      "examples": ["I like coffee, but she prefers tea.", "He studied hard, so he passed the exam."],
+      "usage_percentage": 0.3
+    },
+    "complex_sentences": {
+      "structure": "Independent clause + dependent clause",
+      "examples": ["I drink coffee because it keeps me awake.", "When she arrives, we'll start the meeting."],
+      "usage_percentage": 0.3
+    }
+  },
+  "variety_rules": {
+    "avoid_repetitive_structures": true,
+    "mix_sentence_lengths": true,
+    "target_readability": "grade_8_10",
+    "max_consecutive_long_sentences": 2
+  }
+}

@@ -1,0 +1,93 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# API Keys and secrets
+*.key
+config.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Training Data (large files)
+data/raw_datasets/
+data/processed_datasets/
+data/training/
+data/enhanced_training/
+*.csv
+*.rar
+*.zip
+archive/
+
+# Trained Models (large files)
+models/ALL_TRAINED_MODELS/
+trained_models/
+*.pkl
+*.pth
+*.h5
+*.model
+
+# Logs
+logs/
+*.log
+*.out
+
+# Uploads
+static/uploads/
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large datasets
+*.json.gz
+*.txt.gz

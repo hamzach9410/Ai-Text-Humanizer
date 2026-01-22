@@ -1,0 +1,24 @@
+{
+  "writing_styles": {
+    "conversational": {
+      "sentence_starters": ["You know what?", "Here's the thing:", "Let me tell you,", "Actually,", "Honestly,"],
+      "transitions": ["anyway", "so", "but", "plus", "also"],
+      "endings": ["right?", "you know?", "make sense?", "see what I mean?"]
+    },
+    "professional": {
+      "sentence_starters": ["In fact,", "Notably,", "Importantly,", "Specifically,"],
+      "transitions": ["however", "therefore", "furthermore", "consequently"],
+      "endings": [".", "accordingly.", "respectively."]
+    },
+    "storytelling": {
+      "sentence_starters": ["Picture this:", "Imagine if", "Once upon a time", "Here's what happened:"],
+      "transitions": ["then", "suddenly", "meanwhile", "after that"],
+      "endings": ["...and that's how it happened.", "The end.", "Pretty crazy, right?"]
+    }
+  },
+  "personality_markers": {
+    "enthusiastic": ["amazing", "incredible", "fantastic", "awesome", "brilliant"],
+    "analytical": ["data shows", "research indicates", "studies reveal", "evidence suggests"],
+    "casual": ["pretty cool", "kinda neat", "sorta like", "basically", "totally"]
+  }
+}

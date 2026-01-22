@@ -1,0 +1,20 @@
+{
+  "casual_expressions": {
+    "greetings": ["hey", "hi there", "what's up", "howdy"],
+    "agreement": ["totally", "absolutely", "for sure", "you bet", "definitely"],
+    "emphasis": ["super", "really", "pretty", "quite", "absolutely", "totally"],
+    "transitions": ["so", "well", "anyway", "by the way", "speaking of which"]
+  },
+  "informal_replacements": {
+    "very": ["super", "really", "pretty", "quite"],
+    "good": ["great", "awesome", "cool", "nice", "sweet"],
+    "bad": ["awful", "terrible", "crappy", "lousy"],
+    "big": ["huge", "massive", "enormous", "gigantic"],
+    "small": ["tiny", "little", "mini", "teeny"]
+  },
+  "conversational_fillers": {
+    "thinking": ["um", "uh", "well", "you know", "I mean"],
+    "emphasis": ["like", "totally", "literally", "actually", "really"],
+    "softening": ["kind of", "sort of", "maybe", "perhaps", "I guess"]
+  }
+}

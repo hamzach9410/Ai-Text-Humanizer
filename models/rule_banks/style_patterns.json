@@ -1,0 +1,47 @@
+{
+  "conversational_patterns": {
+    "rhetorical_questions": {
+      "enabled": true,
+      "examples": [
+        "But here's the thing:",
+        "You know what's interesting?",
+        "Ever wonder why?",
+        "What does this mean?",
+        "So what's the takeaway?"
+      ]
+    },
+    "personal_pronouns": {
+      "enabled": true,
+      "allowed": [
+        "you",
+        "your",
+        "we",
+        "our",
+        "us"
+      ]
+    },
+    "transition_phrases": [
+      "Here's the deal:",
+      "The bottom line is:",
+      "What's really cool is:",
+      "The thing is:",
+      "At the end of the day:"
+    ]
+  },
+  "formality_markers": {
+    "formal": [
+      "therefore",
+      "furthermore",
+      "consequently",
+      "moreover",
+      "nevertheless"
+    ],
+    "casual": [
+      "so",
+      "but",
+      "and",
+      "plus",
+      "also"
+    ]
+  }
+}

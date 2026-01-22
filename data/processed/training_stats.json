@@ -1,0 +1,14 @@
+{
+  "last_processed": "2024-01-01T00:00:00Z",
+  "total_samples_processed": 0,
+  "styles_trained": [],
+  "quality_metrics": {
+    "average_quality_score": 0.0,
+    "samples_by_difficulty": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+    }
+  },
+  "processing_history": []
+}

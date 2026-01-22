@@ -1,0 +1,40 @@
+{
+  "writing_personalities": {
+    "enthusiastic_expert": {
+      "characteristics": ["exclamation_points", "superlatives", "personal_anecdotes"],
+      "vocabulary": ["amazing", "incredible", "game-changing", "revolutionary"],
+      "sentence_patterns": ["short_bursts", "rhetorical_questions", "direct_address"],
+      "tone_markers": ["!", "really", "absolutely", "totally"]
+    },
+    "thoughtful_analyst": {
+      "characteristics": ["measured_language", "qualifiers", "evidence_based"],
+      "vocabulary": ["consider", "examine", "evaluate", "suggest"],
+      "sentence_patterns": ["complex_structures", "conditional_statements", "hedging"],
+      "tone_markers": ["perhaps", "might", "could", "seems"]
+    },
+    "friendly_guide": {
+      "characteristics": ["second_person", "helpful_tone", "step_by_step"],
+      "vocabulary": ["you'll", "let's", "here's", "simply"],
+      "sentence_patterns": ["instructional", "encouraging", "conversational"],
+      "tone_markers": ["you", "we", "together", "easy"]
+    },
+    "storyteller": {
+      "characteristics": ["narrative_flow", "descriptive_language", "emotional_connection"],
+      "vocabulary": ["imagine", "picture", "remember", "story"],
+      "sentence_patterns": ["varied_lengths", "dramatic_pauses", "vivid_descriptions"],
+      "tone_markers": ["...", "suddenly", "then", "finally"]
+    }
+  },
+  "personality_injection": {
+    "frequency_by_intensity": {
+      "light": 0.2,
+      "medium": 0.5,
+      "strong": 0.8
+    },
+    "combination_rules": {
+      "max_personalities": 2,
+      "dominant_weight": 0.7,
+      "secondary_weight": 0.3
+    }
+  }
+}

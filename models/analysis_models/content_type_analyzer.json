@@ -1,0 +1,34 @@
+{
+  "content_type_detection": {
+    "academic": {
+      "keywords": ["research", "study", "analysis", "methodology", "findings"],
+      "structure": ["abstract", "introduction", "methodology", "results", "conclusion"],
+      "tone": "formal",
+      "citation_patterns": true
+    },
+    "business": {
+      "keywords": ["strategy", "market", "revenue", "growth", "ROI"],
+      "structure": ["executive_summary", "problem", "solution", "benefits"],
+      "tone": "professional",
+      "metrics_focused": true
+    },
+    "creative": {
+      "keywords": ["story", "character", "plot", "narrative", "imagination"],
+      "structure": ["hook", "development", "climax", "resolution"],
+      "tone": "engaging",
+      "descriptive_language": true
+    },
+    "technical": {
+      "keywords": ["system", "process", "implementation", "configuration", "optimization"],
+      "structure": ["overview", "requirements", "steps", "troubleshooting"],
+      "tone": "instructional",
+      "step_by_step": true
+    }
+  },
+  "adaptation_rules": {
+    "maintain_core_message": true,
+    "adjust_complexity": true,
+    "preserve_key_terms": true,
+    "enhance_readability": true
+  }
+}

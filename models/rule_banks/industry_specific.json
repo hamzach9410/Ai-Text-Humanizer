@@ -1,0 +1,42 @@
+{
+  "healthcare": {
+    "terminology": {
+      "formal": ["patient", "diagnosis", "treatment", "prognosis", "symptoms"],
+      "humanized": ["person", "what's wrong", "care plan", "outlook", "signs"]
+    },
+    "communication_style": "empathetic, clear, reassuring",
+    "avoid_terms": ["subject", "case", "specimen"]
+  },
+  "technology": {
+    "terminology": {
+      "formal": ["implement", "utilize", "optimize", "facilitate", "execute"],
+      "humanized": ["set up", "use", "improve", "help", "run"]
+    },
+    "communication_style": "accessible, practical, solution-focused",
+    "trending_terms": ["AI", "machine learning", "cloud", "automation", "digital transformation"]
+  },
+  "finance": {
+    "terminology": {
+      "formal": ["portfolio", "assets", "liabilities", "equity", "diversification"],
+      "humanized": ["investments", "what you own", "what you owe", "your stake", "spreading risk"]
+    },
+    "communication_style": "trustworthy, clear, conservative",
+    "compliance_language": ["may", "could", "potential", "historical", "not guaranteed"]
+  },
+  "education": {
+    "terminology": {
+      "formal": ["pedagogy", "curriculum", "assessment", "methodology", "outcomes"],
+      "humanized": ["teaching", "what we learn", "testing", "how we teach", "results"]
+    },
+    "communication_style": "encouraging, inclusive, growth-oriented",
+    "engagement_words": ["discover", "explore", "understand", "grow", "achieve"]
+  },
+  "marketing": {
+    "terminology": {
+      "formal": ["consumer", "demographics", "conversion", "engagement", "optimization"],
+      "humanized": ["customer", "people", "sales", "interaction", "improvement"]
+    },
+    "communication_style": "persuasive, benefit-focused, action-oriented",
+    "power_words": ["exclusive", "limited", "proven", "guaranteed", "breakthrough"]
+  }
+}

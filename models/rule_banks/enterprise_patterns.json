@@ -1,0 +1,48 @@
+{
+  "corporate_communication": {
+    "executive_language": {
+      "strategic_terms": ["leverage", "synergy", "optimize", "streamline", "scalable"],
+      "humanized_alternatives": ["use", "work together", "improve", "simplify", "growable"],
+      "balance_ratio": 0.3
+    },
+    "meeting_speak": {
+      "formal": ["circle back", "touch base", "deep dive", "bandwidth", "deliverables"],
+      "natural": ["follow up", "check in", "look closely", "time", "what we need to do"],
+      "replacement_probability": 0.7
+    },
+    "email_patterns": {
+      "openings": ["Hope this finds you well", "I hope you're doing great", "Quick question for you"],
+      "closings": ["Best regards", "Thanks so much", "Looking forward to hearing from you"],
+      "transitions": ["That said", "On another note", "Speaking of which"]
+    }
+  },
+  "industry_jargon_humanization": {
+    "finance": {
+      "jargon": ["ROI", "KPI", "EBITDA", "synergies", "optimization"],
+      "explanations": ["return on investment", "key performance indicator", "earnings", "working together", "making better"],
+      "context_sensitivity": 0.8
+    },
+    "technology": {
+      "jargon": ["API", "SaaS", "DevOps", "agile", "scalability"],
+      "explanations": ["connection point", "cloud software", "development process", "flexible approach", "ability to grow"],
+      "context_sensitivity": 0.6
+    },
+    "healthcare": {
+      "jargon": ["comorbidity", "etiology", "prognosis", "differential", "contraindication"],
+      "explanations": ["other conditions", "cause", "outlook", "other possibilities", "reason not to use"],
+      "context_sensitivity": 0.9
+    }
+  },
+  "professional_authenticity": {
+    "experience_markers": {
+      "years_of_experience": ["In my X years of", "Having worked in", "From my experience"],
+      "industry_knowledge": ["In this industry", "What I've learned", "The reality is"],
+      "practical_wisdom": ["Here's what works", "The key thing is", "What most people don't realize"]
+    },
+    "credibility_signals": {
+      "humble_confidence": ["I've found that", "In my experience", "What tends to work"],
+      "acknowledging_complexity": ["It's not that simple", "There are nuances", "It depends on"],
+      "balanced_perspective": ["On one hand", "That said", "The flip side is"]
+    }
+  }
+}

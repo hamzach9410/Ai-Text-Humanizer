@@ -1,0 +1,40 @@
+{
+  "ai_detection_bypass": {
+    "sentence_variation_patterns": {
+      "length_distribution": [0.3, 0.5, 0.2],
+      "structure_types": ["simple", "compound", "complex", "fragment"],
+      "randomization_factor": 0.8
+    },
+    "vocabulary_diversity": {
+      "synonym_replacement_rate": 0.4,
+      "colloquial_injection_rate": 0.6,
+      "technical_term_humanization": 0.7
+    },
+    "natural_imperfections": {
+      "minor_redundancy": 0.15,
+      "conversational_asides": 0.25,
+      "thought_interruptions": 0.1
+    }
+  },
+  "contextual_adaptations": {
+    "audience_specific": {
+      "general_public": {"complexity": "medium", "jargon": "minimal"},
+      "professionals": {"complexity": "high", "jargon": "moderate"},
+      "experts": {"complexity": "very_high", "jargon": "extensive"}
+    },
+    "content_type_markers": {
+      "blog_post": ["personal_experience", "reader_engagement", "call_to_action"],
+      "email": ["direct_address", "action_items", "polite_closings"],
+      "social_media": ["hashtags", "mentions", "trending_language"],
+      "academic": ["citations", "methodology", "conclusions"]
+    }
+  },
+  "emotional_intelligence": {
+    "sentiment_adaptation": {
+      "positive": ["enthusiasm", "optimism", "encouragement"],
+      "neutral": ["balanced", "informative", "objective"],
+      "negative": ["concern", "caution", "constructive_criticism"]
+    },
+    "empathy_markers": ["I understand", "that makes sense", "I can relate", "many people feel"]
+  }
+}

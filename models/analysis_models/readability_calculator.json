@@ -1,0 +1,29 @@
+{
+  "readability_calculator": {
+    "flesch_kincaid": {
+      "very_easy": {"score_range": [90, 100], "grade_level": "5th grade", "description": "Very easy to read"},
+      "easy": {"score_range": [80, 89], "grade_level": "6th grade", "description": "Easy to read"},
+      "fairly_easy": {"score_range": [70, 79], "grade_level": "7th grade", "description": "Fairly easy to read"},
+      "standard": {"score_range": [60, 69], "grade_level": "8th-9th grade", "description": "Standard difficulty"},
+      "fairly_difficult": {"score_range": [50, 59], "grade_level": "10th-12th grade", "description": "Fairly difficult"},
+      "difficult": {"score_range": [30, 49], "grade_level": "College level", "description": "Difficult to read"},
+      "very_difficult": {"score_range": [0, 29], "grade_level": "Graduate level", "description": "Very difficult"}
+    },
+    "complexity_indicators": {
+      "simple_words": ["the", "and", "is", "in", "to", "of", "a", "that", "it", "with"],
+      "complex_words": ["significant", "comprehensive", "facilitate", "demonstrate", "utilize"],
+      "sentence_length": {
+        "short": {"max_words": 10, "readability": "high"},
+        "medium": {"max_words": 20, "readability": "medium"},
+        "long": {"max_words": 30, "readability": "low"},
+        "very_long": {"max_words": 50, "readability": "very_low"}
+      }
+    },
+    "human_readability": {
+      "conversational": {"avg_sentence_length": 12, "complex_word_ratio": 0.1},
+      "casual": {"avg_sentence_length": 15, "complex_word_ratio": 0.15},
+      "formal": {"avg_sentence_length": 20, "complex_word_ratio": 0.25},
+      "academic": {"avg_sentence_length": 25, "complex_word_ratio": 0.35}
+    }
+  }
+}

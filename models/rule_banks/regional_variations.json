@@ -1,0 +1,35 @@
+{
+  "american_english": {
+    "spelling": {
+      "color": "color",
+      "realize": "realize",
+      "center": "center",
+      "defense": "defense"
+    },
+    "vocabulary": {
+      "elevator": "elevator",
+      "apartment": "apartment",
+      "garbage": "garbage",
+      "sidewalk": "sidewalk"
+    }
+  },
+  "british_english": {
+    "spelling": {
+      "colour": "colour",
+      "realise": "realise",
+      "centre": "centre",
+      "defence": "defence"
+    },
+    "vocabulary": {
+      "lift": "lift",
+      "flat": "flat",
+      "rubbish": "rubbish",
+      "pavement": "pavement"
+    }
+  },
+  "colloquialisms": {
+    "american": ["awesome", "cool", "totally", "like", "super"],
+    "british": ["brilliant", "lovely", "quite", "rather", "absolutely"],
+    "general": ["amazing", "great", "really", "pretty", "very"]
+  }
+}

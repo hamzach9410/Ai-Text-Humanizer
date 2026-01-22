@@ -1,0 +1,48 @@
+{
+  "heading_formats": {
+    "main_heading": "{text}",
+    "sub_heading": "{text}",
+    "section": "{text}"
+  },
+  "list_formats": {
+    "bullet_points": "\u2022 {item}",
+    "numbered": "{number}. {item}",
+    "simple": "{item}"
+  },
+  "paragraph_styles": {
+    "conversational": {
+      "start_phrases": [
+        "You know,",
+        "Here's what's interesting:",
+        "The thing is,"
+      ],
+      "connectors": [
+        "and",
+        "but",
+        "so",
+        "plus"
+      ],
+      "endings": [
+        ".",
+        "!",
+        "..."
+      ]
+    },
+    "professional": {
+      "start_phrases": [
+        "Notably,",
+        "Importantly,",
+        "Specifically,"
+      ],
+      "connectors": [
+        "however",
+        "therefore",
+        "furthermore"
+      ],
+      "endings": [
+        ".",
+        "."
+      ]
+    }
+  }
+}

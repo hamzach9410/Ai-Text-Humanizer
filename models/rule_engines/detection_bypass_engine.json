@@ -1,0 +1,35 @@
+{
+  "bypass_strategies": {
+    "sentence_restructuring": {
+      "passive_to_active": true,
+      "vary_sentence_length": true,
+      "add_personal_touches": true,
+      "use_contractions": 0.7
+    },
+    "vocabulary_enhancement": {
+      "replace_formal_words": {
+        "utilize": "use",
+        "facilitate": "help",
+        "demonstrate": "show",
+        "implement": "put in place",
+        "optimize": "improve",
+        "leverage": "use"
+      },
+      "add_casual_expressions": [
+        "pretty much", "kind of", "sort of", "basically", 
+        "actually", "honestly", "really", "quite"
+      ]
+    },
+    "human_errors": {
+      "add_minor_typos": false,
+      "informal_punctuation": true,
+      "sentence_fragments": 0.1,
+      "run_on_sentences": 0.05
+    }
+  },
+  "detection_scores": {
+    "target_human_score": 0.95,
+    "max_ai_probability": 0.15,
+    "confidence_threshold": 0.8
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "detection_thresholds": {
+    "gptzero": {"human_threshold": 0.15, "mixed_threshold": 0.5, "ai_threshold": 0.85},
+    "originality_ai": {"human_threshold": 0.20, "mixed_threshold": 0.6, "ai_threshold": 0.80},
+    "copyleaks": {"human_threshold": 0.25, "mixed_threshold": 0.55, "ai_threshold": 0.75},
+    "turnitin": {"human_threshold": 0.30, "mixed_threshold": 0.65, "ai_threshold": 0.85}
+  },
+  "humanization_indicators": {
+    "sentence_complexity_variance": {"weight": 0.25, "target_range": [0.6, 0.9]},
+    "vocabulary_diversity": {"weight": 0.20, "target_range": [0.7, 0.95]},
+    "contraction_usage": {"weight": 0.15, "target_range": [0.1, 0.3]},
+    "personal_language": {"weight": 0.15, "target_range": [0.05, 0.2]},
+    "natural_flow": {"weight": 0.25, "target_range": [0.8, 1.0]}
+  },
+  "bypass_strategies": {
+    "high_risk_patterns": [
+      "repetitive_sentence_structure",
+      "formal_vocabulary_overuse",
+      "lack_of_contractions",
+      "perfect_grammar_consistency",
+      "absence_of_colloquialisms"
+    ],
+    "mitigation_techniques": [
+      "inject_natural_variations",
+      "add_conversational_elements",
+      "introduce_minor_imperfections",
+      "vary_sentence_rhythms",
+      "include_personal_touches"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "industry_jargon": {
+    "tech": {
+      "terms": ["API", "backend", "frontend", "deployment", "scalable", "agile", "sprint", "MVP"],
+      "casual_tech": ["bug", "feature", "hack", "code", "debug", "push", "merge", "repo"],
+      "expressions": ["let's ship it", "that's a bug", "quick hack", "push to prod", "merge conflict"]
+    },
+    "medical": {
+      "terms": ["diagnosis", "symptoms", "treatment", "patient", "clinical", "therapeutic"],
+      "casual_medical": ["checkup", "meds", "doc", "appointment", "prescription", "side effects"],
+      "expressions": ["follow up", "take your meds", "see the doc", "book appointment"]
+    },
+    "legal": {
+      "terms": ["contract", "agreement", "clause", "litigation", "compliance", "jurisdiction"],
+      "casual_legal": ["paperwork", "fine print", "legal stuff", "court case", "lawyer"],
+      "expressions": ["read the fine print", "legal stuff", "court hearing", "sign papers"]
+    },
+    "finance": {
+      "terms": ["portfolio", "investment", "returns", "equity", "dividend", "market cap"],
+      "casual_finance": ["stocks", "money", "profit", "loss", "savings", "budget"],
+      "expressions": ["make money", "lose money", "good investment", "market crash"]
+    }
+  }
+}

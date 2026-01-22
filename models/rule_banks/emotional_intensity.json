@@ -1,0 +1,22 @@
+{
+  "emotional_intensity": {
+    "excitement": {
+      "low": ["nice", "good", "okay", "fine", "alright"],
+      "medium": ["great", "awesome", "cool", "sweet", "nice one"],
+      "high": ["amazing", "incredible", "fantastic", "mind-blowing", "absolutely love it"],
+      "extreme": ["OMG", "YESSS", "SO GOOD", "BEST THING EVER", "I'M DYING"]
+    },
+    "disappointment": {
+      "low": ["not great", "could be better", "meh", "not my thing"],
+      "medium": ["disappointing", "not good", "pretty bad", "not happy"],
+      "high": ["terrible", "awful", "hate it", "worst thing ever"],
+      "extreme": ["WORST", "HATE THIS", "SO BAD", "NEVER AGAIN"]
+    },
+    "surprise": {
+      "low": ["oh", "huh", "interesting", "didn't expect"],
+      "medium": ["wow", "really?", "no way", "seriously?"],
+      "high": ["OMG", "what?!", "can't believe", "shocking"],
+      "extreme": ["WHAT?!", "NO WAY!", "MIND BLOWN", "UNBELIEVABLE"]
+    }
+  }
+}

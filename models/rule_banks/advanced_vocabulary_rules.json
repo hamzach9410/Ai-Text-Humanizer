@@ -1,0 +1,29 @@
+{
+  "vocabulary_enhancement": {
+    "overused_ai_words": {
+      "delve": ["explore", "examine", "look into", "dig into"],
+      "utilize": ["use", "employ", "apply", "work with"],
+      "facilitate": ["help", "enable", "make easier", "support"],
+      "implement": ["put in place", "set up", "start", "begin"],
+      "optimize": ["improve", "enhance", "make better", "fine-tune"],
+      "leverage": ["use", "take advantage of", "make use of", "harness"],
+      "paradigm": ["approach", "method", "way", "model"],
+      "synergy": ["teamwork", "cooperation", "collaboration", "working together"]
+    },
+    "natural_alternatives": {
+      "commence": "start",
+      "terminate": "end",
+      "demonstrate": "show",
+      "indicate": "show",
+      "substantial": "big",
+      "numerous": "many",
+      "approximately": "about",
+      "subsequently": "then"
+    },
+    "conversational_boosters": {
+      "hedging": ["kind of", "sort of", "pretty much", "basically", "essentially"],
+      "emphasis": ["really", "actually", "definitely", "absolutely", "totally"],
+      "transitions": ["anyway", "so", "well", "now", "ok"]
+    }
+  }
+}

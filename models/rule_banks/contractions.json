@@ -1,0 +1,62 @@
+{
+  "standard_contractions": {
+    "be_verbs": {
+      "I am": "I'm",
+      "you are": "you're",
+      "he is": "he's",
+      "she is": "she's",
+      "it is": "it's",
+      "we are": "we're",
+      "they are": "they're"
+    },
+    "have_verbs": {
+      "I have": "I've",
+      "you have": "you've",
+      "we have": "we've",
+      "they have": "they've"
+    },
+    "will_future": {
+      "I will": "I'll",
+      "you will": "you'll",
+      "he will": "he'll",
+      "she will": "she'll",
+      "it will": "it'll",
+      "we will": "we'll",
+      "they will": "they'll"
+    },
+    "negations": {
+      "is not": "isn't",
+      "are not": "aren't",
+      "was not": "wasn't",
+      "were not": "weren't",
+      "do not": "don't",
+      "does not": "doesn't",
+      "did not": "didn't",
+      "have not": "haven't",
+      "has not": "hasn't",
+      "had not": "hadn't",
+      "cannot": "can't",
+      "could not": "couldn't",
+      "should not": "shouldn't",
+      "would not": "wouldn't"
+    }
+  },
+  "informal_contractions": {
+    "going to": "gonna",
+    "want to": "wanna",
+    "got to": "gotta",
+    "kind of": "kinda",
+    "sort of": "sorta",
+    "out of": "outta"
+  },
+  "context_rules": {
+    "formal_contexts": ["academic", "technical", "professional"],
+    "avoid_informal_in_formal": true,
+    "contraction_density": {
+      "casual": 0.8,
+      "general": 0.6,
+      "professional": 0.4,
+      "academic": 0.2
+    }
+  }
+}

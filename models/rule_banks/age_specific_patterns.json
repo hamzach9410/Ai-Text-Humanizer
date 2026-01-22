@@ -1,0 +1,21 @@
+{
+  "age_specific_patterns": {
+    "gen_z": {
+      "slang": ["slay", "periodt", "no cap", "fr fr", "bet", "vibe", "lowkey", "highkey", "sus", "based"],
+      "expressions": ["that's so slay", "periodt queen", "no cap fr", "lowkey vibing", "sus behavior"],
+      "sentence_starters": ["Literally", "Honestly", "Lowkey", "Highkey", "Not gonna lie"],
+      "abbreviations": ["ngl", "tbh", "imo", "smh", "rn", "af", "ong"]
+    },
+    "millennial": {
+      "references": ["adulting", "doggo", "pupper", "mood", "same", "iconic", "stan", "ship"],
+      "expressions": ["adulting is hard", "such a mood", "we stan", "this is iconic"],
+      "sentence_starters": ["Honestly", "Like", "So", "Basically", "I mean"],
+      "phrases": ["I can't even", "this is everything", "living for this"]
+    },
+    "gen_x": {
+      "expressions": ["back in my day", "kids these days", "when I was young", "that's rad"],
+      "references": ["totally", "awesome", "cool beans", "gnarly", "tubular"],
+      "sentence_starters": ["Back then", "I remember", "In my time", "Those were"]
+    }
+  }
+}

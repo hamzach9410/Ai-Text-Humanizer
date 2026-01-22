@@ -1,0 +1,20 @@
+{
+  "sentence_variety": {
+    "target_ratio": 0.4,
+    "short_sentence_max_words": 8,
+    "long_sentence_min_words": 20,
+    "variety_patterns": ["simple", "compound", "complex", "compound-complex"]
+  },
+  "transition_words": {
+    "addition": ["also", "furthermore", "moreover", "additionally", "plus", "and"],
+    "contrast": ["however", "but", "yet", "nevertheless", "on the other hand"],
+    "cause_effect": ["therefore", "thus", "consequently", "as a result", "so"],
+    "time": ["meanwhile", "subsequently", "then", "next", "finally"],
+    "emphasis": ["indeed", "certainly", "definitely", "absolutely"]
+  },
+  "sentence_structure": {
+    "avoid_passive_threshold": 0.2,
+    "preferred_connectors": ["and", "but", "so", "because", "when", "while"],
+    "variety_enforcement": true
+  }
+}

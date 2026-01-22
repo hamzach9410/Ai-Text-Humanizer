@@ -1,0 +1,27 @@
+{
+  "social_media_patterns": {
+    "instagram": {
+      "captions": ["Living my best life", "Mood", "Vibes", "No filter needed", "Just because"],
+      "hashtag_style": ["#mood", "#vibes", "#blessed", "#grateful", "#nofilter"],
+      "expressions": ["swipe left", "double tap", "story time", "IGTV", "reels"],
+      "engagement": ["drop a comment", "tag a friend", "share this", "save for later"]
+    },
+    "twitter": {
+      "thread_starters": ["Thread 1/", "Let me explain", "Here's the thing", "Quick thread"],
+      "expressions": ["hot take", "unpopular opinion", "this you?", "ratio", "main character"],
+      "reactions": ["I'm deceased", "not me crying", "this sent me", "I can't"],
+      "abbreviations": ["RT", "QT", "DM", "TL", "MT"]
+    },
+    "linkedin": {
+      "professional": ["excited to announce", "thrilled to share", "proud to say"],
+      "networking": ["let's connect", "reach out", "happy to chat", "open to opportunities"],
+      "achievements": ["milestone reached", "goal achieved", "success story", "lesson learned"],
+      "thought_leadership": ["my thoughts on", "industry insights", "key takeaways"]
+    },
+    "tiktok": {
+      "trends": ["POV", "tell me without telling me", "this or that", "day in my life"],
+      "expressions": ["no cap", "periodt", "it's giving", "understood the assignment"],
+      "reactions": ["I'm crying", "not me", "the way I", "why is this me"]
+    }
+  }
+}

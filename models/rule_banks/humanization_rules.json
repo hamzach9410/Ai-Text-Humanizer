@@ -1,0 +1,22 @@
+{
+  "contractions": {
+    "do not": "don't",
+    "cannot": "can't",
+    "will not": "won't",
+    "should not": "shouldn't",
+    "would not": "wouldn't"
+  },
+  "transitions": {
+    "However": "But",
+    "Therefore": "So",
+    "Furthermore": "Also",
+    "Moreover": "Plus",
+    "Nevertheless": "Still"
+  },
+  "casual_starters": [
+    "You know what?",
+    "Here's the thing:",
+    "Actually,",
+    "Honestly,"
+  ]
+}

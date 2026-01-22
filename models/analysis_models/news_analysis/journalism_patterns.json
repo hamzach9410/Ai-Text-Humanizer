@@ -1,0 +1,25 @@
+{
+  "news_structure": {
+    "inverted_pyramid": {
+      "lead": "Most important information first",
+      "body": "Supporting details and context",
+      "tail": "Background information and less critical details"
+    },
+    "headline_patterns": {
+      "breaking": ["BREAKING:", "URGENT:", "DEVELOPING:"],
+      "update": ["UPDATE:", "LATEST:", "NEW:"],
+      "analysis": ["ANALYSIS:", "OPINION:", "PERSPECTIVE:"]
+    }
+  },
+  "journalistic_language": {
+    "attribution": ["according to", "sources say", "officials report", "witnesses claim"],
+    "time_markers": ["earlier today", "this morning", "last night", "breaking now"],
+    "impact_words": ["significant", "major", "critical", "unprecedented", "historic"],
+    "neutral_verbs": ["reported", "announced", "confirmed", "stated", "revealed"]
+  },
+  "quote_integration": {
+    "introduction": ["said", "stated", "explained", "noted", "commented"],
+    "continuation": ["added", "continued", "emphasized", "clarified", "concluded"],
+    "attribution_styles": ["direct", "indirect", "paraphrased"]
+  }
+}

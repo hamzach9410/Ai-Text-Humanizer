@@ -1,0 +1,28 @@
+{
+  "sentiment_analysis": {
+    "positive_indicators": {
+      "words": ["amazing", "awesome", "great", "fantastic", "wonderful", "excellent", "perfect", "love", "best"],
+      "phrases": ["really good", "so happy", "love it", "best ever", "highly recommend"],
+      "intensifiers": ["absolutely", "totally", "completely", "extremely", "incredibly"],
+      "score_weight": 1.0
+    },
+    "negative_indicators": {
+      "words": ["terrible", "awful", "horrible", "worst", "hate", "disgusting", "pathetic", "useless"],
+      "phrases": ["really bad", "so disappointed", "hate it", "worst ever", "don't recommend"],
+      "intensifiers": ["absolutely", "totally", "completely", "extremely", "incredibly"],
+      "score_weight": -1.0
+    },
+    "neutral_indicators": {
+      "words": ["okay", "fine", "average", "normal", "standard", "typical", "regular"],
+      "phrases": ["it's okay", "not bad", "could be better", "nothing special"],
+      "score_weight": 0.0
+    },
+    "emotional_markers": {
+      "joy": ["happy", "excited", "thrilled", "delighted", "cheerful"],
+      "anger": ["angry", "furious", "mad", "irritated", "annoyed"],
+      "sadness": ["sad", "depressed", "disappointed", "upset", "heartbroken"],
+      "fear": ["scared", "afraid", "worried", "anxious", "nervous"],
+      "surprise": ["surprised", "shocked", "amazed", "stunned", "astonished"]
+    }
+  }
+}

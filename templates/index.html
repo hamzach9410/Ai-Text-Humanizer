@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xpenzio - AI Text Humanizer</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="logo">
+          <i class="fas fa-feather-alt"></i>
+          <h1>Xpenzio <span>Ai</span></h1>
+        </div>
+        <p class="tagline">Transform AI content into human masterpiece</p>
+      </header>
+
+      <!-- Mode Toggle -->
+      <div class="mode-toggle">
+        <button id="generate-mode-btn" class="mode-btn active">
+          <i class="fas fa-plus-circle"></i>
+          Generate Content
+        </button>
+        <button id="humanize-mode-btn" class="mode-btn">
+          <i class="fas fa-magic"></i>
+          Humanize Text
+        </button>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Input Section -->
+        <div class="input-section">
+          <div class="section-header">
+            <h2 id="input-title">What would you like to create?</h2>
+            <div class="tooltip">
+              <i class="fas fa-question-circle"></i>
+              <span class="tooltip-text" id="input-tooltip"
+                >Enter a topic or prompt to generate human-like content</span
+              >
+            </div>
+          </div>
+
+          <div class="input-container">
+            <textarea
+              id="input-text"
+              placeholder="Enter your prompt or paste AI-generated text here..."
+            ></textarea>
+            <div class="input-footer">
+              <span id="char-count">0 characters</span>
+            </div>
+          </div>
+
+          <!-- File Upload -->
+          <div class="file-upload-container">
+            <label for="file-upload" class="file-upload-label">
+              <i class="fas fa-upload"></i>
+              <span>Upload File (TXT, PDF, DOCX)</span>
+            </label>
+            <input
+              type="file"
+              id="file-upload"
+              accept=".txt,.pdf,.docx"
+              hidden
+            />
+            <div id="file-name" class="file-name"></div>
+          </div>
+
+          <!-- Settings Panel -->
+          <div class="settings-panel">
+            <div class="setting-group">
+              <label for="content-type">Content Type:</label>
+              <select id="content-type">
+                <option value="general">General</option>
+                <option value="blog">Blog Post</option>
+                <option value="email">Email</option>
+                <option value="social">Social Media</option>
+                <option value="story">Story/Narrative</option>
+                <option value="technical">Technical</option>
+              </select>
+            </div>
+
+            <div class="setting-group">
+              <label for="tone">Tone:</label>
+              <select id="tone">
+                <option value="neutral">Neutral</option>
+                <option value="professional">Professional</option>
+                <option value="casual">Casual</option>
+                <option value="enthusiastic">Enthusiastic</option>
+              </select>
+            </div>
+          </div>
+
+          <button id="submit-btn" class="primary-btn">
+            <i class="fas fa-sparkles"></i>
+            <span id="submit-text">Generate Content</span>
+          </button>
+        </div>
+
+        <!-- Output Section -->
+        <div class="output-section">
+          <div class="section-header">
+            <h2>Your Humanized Content</h2>
+            <div class="tooltip">
+              <i class="fas fa-question-circle"></i>
+              <span class="tooltip-text"
+                >Your AI-generated, human-like content will appear here</span
+              >
+            </div>
+          </div>
+
+          <div class="output-container">
+            <div id="output-content" class="output-content">
+              <div class="placeholder">
+                <i class="fas fa-feather"></i>
+                <p>Your content will appear here</p>
+              </div>
+            </div>
+            <div class="output-footer">
+              <div class="output-actions">
+                <button
+                  id="copy-btn"
+                  class="icon-btn"
+                  title="Copy to clipboard"
+                >
+                  <i class="fas fa-copy"></i>
+                </button>
+                <button
+                  id="download-btn"
+                  class="icon-btn"
+                  title="Download as text file"
+                >
+                  <i class="fas fa-download"></i>
+                </button>
+                <button id="clear-btn" class="icon-btn" title="Clear output">
+                  <i class="fas fa-trash"></i>
+                </button>
+              </div>
+              <span id="output-info">Ready to generate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Loading Overlay -->
+      <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-content">
+          <div class="spinner"></div>
+          <p>Crafting your content...</p>
+        </div>
+      </div>
+
+      <!-- Notification -->
+      <div id="notification" class="notification">
+        <span id="notification-text"></span>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>
+          Powered by DeepSeek via OpenRouter API • Crafted with
+          <i class="fas fa-heart"></i> by Rumi
+        </p>
+      </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>

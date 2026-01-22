@@ -1,0 +1,53 @@
+{
+  "positive_emotions": {
+    "joy": [
+      "amazing",
+      "fantastic",
+      "incredible",
+      "wonderful",
+      "brilliant",
+      "outstanding",
+      "remarkable",
+      "excellent"
+    ],
+    "excitement": [
+      "thrilling",
+      "exhilarating",
+      "electrifying",
+      "dynamic",
+      "energizing",
+      "invigorating"
+    ],
+    "satisfaction": [
+      "fulfilling",
+      "rewarding",
+      "satisfying",
+      "gratifying",
+      "pleasing",
+      "delightful"
+    ]
+  },
+  "engagement": {
+    "curiosity": [
+      "intriguing",
+      "fascinating",
+      "captivating",
+      "compelling",
+      "thought-provoking"
+    ],
+    "surprise": [
+      "unexpected",
+      "surprising",
+      "astonishing",
+      "remarkable",
+      "striking"
+    ],
+    "interest": [
+      "engaging",
+      "absorbing",
+      "riveting",
+      "gripping",
+      "enthralling"
+    ]
+  }
+}

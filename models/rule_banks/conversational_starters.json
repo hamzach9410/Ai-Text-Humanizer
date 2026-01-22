@@ -1,0 +1,26 @@
+{
+  "casual": [
+    "You know what?",
+    "Here's the thing:",
+    "Actually,",
+    "Honestly,",
+    "To be fair,",
+    "Let me tell you,",
+    "The way I see it,",
+    "In my experience,",
+    "What's interesting is",
+    "The reality is"
+  ],
+  "professional": [
+    "In fact,",
+    "Notably,",
+    "Importantly,",
+    "Specifically,",
+    "Particularly,",
+    "Essentially,",
+    "Fundamentally,",
+    "Primarily,",
+    "Generally speaking,",
+    "From our perspective,"
+  ]
+}

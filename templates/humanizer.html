@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🤖 AI Text Humanizer - All Models</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; color: #333; margin-bottom: 30px; }
+        .section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        textarea { width: 100%; height: 120px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin: 5px; }
+        button:hover { background: #0056b3; }
+        .result { margin-top: 15px; padding: 10px; background: #f8f9fa; border-radius: 5px; }
+        .score { font-weight: bold; font-size: 18px; }
+        .ai-score { color: #dc3545; }
+        .human-score { color: #28a745; }
+        .tabs { display: flex; margin-bottom: 20px; }
+        .tab { padding: 10px 20px; background: #e9ecef; border: 1px solid #ddd; cursor: pointer; }
+        .tab.active { background: #007bff; color: white; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        select { padding: 8px; margin: 5px; border: 1px solid #ccc; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI Text Humanizer</h1>
+            <p>Using ALL Trained Models - GPU + ML + Rules</p>
+        </div>
+        
+        <div class="tabs">
+            <div class="tab active" onclick="showTab('generate')">📝 Generate Text</div>
+            <div class="tab" onclick="showTab('detect')">🔍 Detect AI</div>
+            <div class="tab" onclick="showTab('humanize')">🧠 Humanize Text</div>
+        </div>
+        
+        <!-- Generate Tab -->
+        <div id="generate" class="tab-content active">
+            <div class="section">
+                <h3>📝 Generate Sample AI Text</h3>
+                <select id="topic">
+                    <option value="technology">Technology</option>
+                    <option value="education">Education</option>
+                    <option value="business">Business</option>
+                    <option value="health">Health</option>
+                </select>
+                <button onclick="generateText()">Generate Sample Text</button>
+                <div id="generateResult" class="result" style="display:none;"></div>
+            </div>
+        </div>
+        
+        <!-- Detect Tab -->
+        <div id="detect" class="tab-content">
+            <div class="section">
+                <h3>🔍 AI Text Detection</h3>
+                <textarea id="detectText" placeholder="Paste text here to check if it's AI-generated..."></textarea>
+                <br>
+                <button onclick="detectAI()">Analyze Text</button>
+                <div id="detectResult" class="result" style="display:none;"></div>
+            </div>
+        </div>
+        
+        <!-- Humanize Tab -->
+        <div id="humanize" class="tab-content">
+            <div class="section">
+                <h3>🧠 Humanize AI Text</h3>
+                <textarea id="humanizeText" placeholder="Paste AI-generated text here to make it more human-like..."></textarea>
+                <br>
+                <select id="style">
+                    <option value="casual">Casual</option>
+                    <option value="professional">Professional</option>
+                    <option value="conversational">Conversational</option>
+                </select>
+                <button onclick="humanizeText()">Humanize Text</button>
+                <div id="humanizeResult" class="result" style="display:none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+        
+        function generateText() {
+            const topic = document.getElementById('topic').value;
+            
+            fetch('/generate', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({topic: topic})
+            })
+            .then(response => response.json())
+            .then(data => {
+                const result = document.getElementById('generateResult');
+                result.innerHTML = `
+                    <h4>Generated ${data.topic} text:</h4>
+                    <p><strong>Text:</strong> ${data.generated_text}</p>
+                    <p class="score">
+                        <span class="ai-score">AI Probability: ${data.ai_probability}%</span> | 
+                        <span class="human-score">Human Probability: ${data.human_probability}%</span>
+                    </p>
+                `;
+                result.style.display = 'block';
+            });
+        }
+        
+        function detectAI() {
+            const text = document.getElementById('detectText').value;
+            if (!text.trim()) return;
+            
+            fetch('/detect', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({text: text})
+            })
+            .then(response => response.json())
+            .then(data => {
+                const result = document.getElementById('detectResult');
+                const verdict = data.is_ai ? 'AI-Generated' : 'Human-Written';
+                const verdictClass = data.is_ai ? 'ai-score' : 'human-score';
+                
+                result.innerHTML = `
+                    <h4>Detection Results:</h4>
+                    <p class="score ${verdictClass}">Verdict: ${verdict} (${data.confidence}% confidence)</p>
+                    <p class="score">
+                        <span class="ai-score">AI Probability: ${data.ai_probability}%</span> | 
+                        <span class="human-score">Human Probability: ${data.human_probability}%</span>
+                    </p>
+                `;
+                result.style.display = 'block';
+            });
+        }
+        
+        function humanizeText() {
+            const text = document.getElementById('humanizeText').value;
+            const style = document.getElementById('style').value;
+            if (!text.trim()) return;
+            
+            fetch('/humanize', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({text: text, style: style})
+            })
+            .then(response => response.json())
+            .then(data => {
+                const result = document.getElementById('humanizeResult');
+                result.innerHTML = `
+                    <h4>Humanization Results:</h4>
+                    <p><strong>Original:</strong> ${data.original_text}</p>
+                    <p><strong>Humanized:</strong> ${data.humanized_text}</p>
+                    <p class="score">
+                        Original AI Score: <span class="ai-score">${data.original_ai_probability}%</span> → 
+                        New AI Score: <span class="ai-score">${data.humanized_ai_probability}%</span>
+                    </p>
+                    <p class="score">
+                        <span class="human-score">Human Score: ${data.human_score}%</span> | 
+                        Improvement: ${data.improvement}%
+                    </p>
+                `;
+                result.style.display = 'block';
+            });
+        }
+    </script>
+</body>
+</html>

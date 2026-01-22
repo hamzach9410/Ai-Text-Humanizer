@@ -1,0 +1,29 @@
+{
+  "quality_assessment": {
+    "human_likeness_score": {
+      "natural_flow": 0.25,
+      "vocabulary_variety": 0.20,
+      "sentence_structure": 0.20,
+      "personal_touch": 0.15,
+      "conversational_elements": 0.20
+    },
+    "ai_detection_resistance": {
+      "pattern_breaking": 0.30,
+      "unpredictability": 0.25,
+      "human_errors": 0.15,
+      "emotional_markers": 0.30
+    },
+    "content_quality": {
+      "clarity": 0.30,
+      "engagement": 0.25,
+      "informativeness": 0.25,
+      "originality": 0.20
+    }
+  },
+  "scoring_thresholds": {
+    "excellent": 0.9,
+    "good": 0.8,
+    "acceptable": 0.7,
+    "needs_improvement": 0.6
+  }
+}

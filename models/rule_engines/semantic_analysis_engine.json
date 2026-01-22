@@ -1,0 +1,32 @@
+{
+  "semantic_analysis": {
+    "context_understanding": {
+      "topic_identification": true,
+      "sentiment_analysis": true,
+      "intent_recognition": true,
+      "audience_detection": true
+    },
+    "content_adaptation": {
+      "formal_to_casual": {
+        "business_terms": {
+          "leverage": "use",
+          "synergy": "teamwork",
+          "paradigm": "approach",
+          "utilize": "use",
+          "facilitate": "help"
+        },
+        "academic_terms": {
+          "furthermore": "also",
+          "therefore": "so",
+          "however": "but",
+          "consequently": "as a result"
+        }
+      }
+    },
+    "natural_language_patterns": {
+      "conversation_flow": ["intro", "development", "examples", "conclusion"],
+      "storytelling_elements": ["setup", "conflict", "resolution"],
+      "explanation_structure": ["what", "why", "how", "so what"]
+    }
+  }
+}

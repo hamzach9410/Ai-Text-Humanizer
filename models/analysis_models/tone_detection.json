@@ -1,0 +1,40 @@
+{
+  "tone_detection": {
+    "professional": {
+      "indicators": ["pleased to", "I would like to", "thank you for", "I appreciate", "sincerely"],
+      "vocabulary": ["facilitate", "implement", "optimize", "strategic", "comprehensive"],
+      "structure": ["formal greetings", "structured paragraphs", "clear conclusions"],
+      "score_weight": 1.0
+    },
+    "casual": {
+      "indicators": ["hey", "what's up", "no worries", "sounds good", "catch you later"],
+      "vocabulary": ["cool", "awesome", "stuff", "things", "pretty good"],
+      "structure": ["informal greetings", "relaxed flow", "conversational tone"],
+      "score_weight": 1.0
+    },
+    "friendly": {
+      "indicators": ["hope you're well", "great to hear", "looking forward", "take care"],
+      "vocabulary": ["wonderful", "fantastic", "amazing", "lovely", "delightful"],
+      "structure": ["warm greetings", "positive language", "encouraging words"],
+      "score_weight": 1.0
+    },
+    "authoritative": {
+      "indicators": ["must", "should", "required", "necessary", "important to note"],
+      "vocabulary": ["essential", "critical", "mandatory", "imperative", "crucial"],
+      "structure": ["direct statements", "clear instructions", "definitive language"],
+      "score_weight": 1.0
+    },
+    "empathetic": {
+      "indicators": ["I understand", "I can imagine", "that must be", "I'm sorry to hear"],
+      "vocabulary": ["feel", "understand", "support", "care", "concern"],
+      "structure": ["acknowledgment", "validation", "supportive language"],
+      "score_weight": 1.0
+    },
+    "humorous": {
+      "indicators": ["haha", "lol", "funny", "joke", "kidding"],
+      "vocabulary": ["hilarious", "amusing", "witty", "clever", "entertaining"],
+      "structure": ["playful language", "light-hearted", "informal expressions"],
+      "score_weight": 1.0
+    }
+  }
+}

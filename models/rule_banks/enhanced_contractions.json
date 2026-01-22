@@ -1,0 +1,69 @@
+{
+  "patterns": {
+    "do_not": {
+      "formal": "do not",
+      "casual": "don't",
+      "weight": 0.9
+    },
+    "will_not": {
+      "formal": "will not",
+      "casual": "won't",
+      "weight": 0.9
+    },
+    "cannot": {
+      "formal": "cannot",
+      "casual": "can't",
+      "weight": 0.8
+    },
+    "should_not": {
+      "formal": "should not",
+      "casual": "shouldn't",
+      "weight": 0.8
+    },
+    "would_not": {
+      "formal": "would not",
+      "casual": "wouldn't",
+      "weight": 0.8
+    },
+    "could_not": {
+      "formal": "could not",
+      "casual": "couldn't",
+      "weight": 0.8
+    },
+    "is_not": {
+      "formal": "is not",
+      "casual": "isn't",
+      "weight": 0.7
+    },
+    "are_not": {
+      "formal": "are not",
+      "casual": "aren't",
+      "weight": 0.7
+    },
+    "was_not": {
+      "formal": "was not",
+      "casual": "wasn't",
+      "weight": 0.7
+    },
+    "were_not": {
+      "formal": "were not",
+      "casual": "weren't",
+      "weight": 0.7
+    },
+    "have_not": {
+      "formal": "have not",
+      "casual": "haven't",
+      "weight": 0.8
+    },
+    "has_not": {
+      "formal": "has not",
+      "casual": "hasn't",
+      "weight": 0.8
+    },
+    "had_not": {
+      "formal": "had not",
+      "casual": "hadn't",
+      "weight": 0.8
+    }
+  }
+}

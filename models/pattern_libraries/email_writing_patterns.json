@@ -1,0 +1,26 @@
+{
+  "email_writing_patterns": {
+    "formal_business": {
+      "openings": ["I hope this email finds you well", "I trust you are doing well", "I hope you're having a great day"],
+      "closings": ["Best regards", "Kind regards", "Sincerely", "Thank you for your time"],
+      "transitions": ["Furthermore", "Additionally", "In addition", "Moreover"],
+      "requests": ["I would appreciate", "Could you please", "Would it be possible", "I kindly request"]
+    },
+    "casual_friendly": {
+      "openings": ["Hey there", "Hi!", "Hope you're doing well", "Quick question"],
+      "closings": ["Thanks", "Cheers", "Talk soon", "Best", "Take care"],
+      "transitions": ["Also", "By the way", "Oh and", "Plus"],
+      "requests": ["Can you", "Would you mind", "Could you help", "Any chance you could"]
+    },
+    "follow_up": {
+      "gentle": ["Just following up", "Wanted to circle back", "Checking in", "Quick follow-up"],
+      "urgent": ["Time sensitive", "Urgent follow-up", "Need response ASAP", "Priority"],
+      "polite": ["When you get a chance", "No rush", "At your convenience", "Whenever possible"]
+    },
+    "marketing": {
+      "subject_lines": ["Don't miss out", "Limited time", "Exclusive offer", "Just for you"],
+      "hooks": ["You won't believe", "Secret revealed", "Insider tip", "Game changer"],
+      "calls_to_action": ["Act now", "Get started", "Learn more", "Claim yours", "Don't wait"]
+    }
+  }
+}

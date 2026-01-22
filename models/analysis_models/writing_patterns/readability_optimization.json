@@ -1,0 +1,53 @@
+{
+  "readability_targets": {
+    "general_audience": {
+      "flesch_score": {"min": 60, "max": 80},
+      "grade_level": {"min": 6, "max": 10},
+      "sentence_length": {"avg": 15, "max": 25}
+    },
+    "professional_audience": {
+      "flesch_score": {"min": 50, "max": 70},
+      "grade_level": {"min": 10, "max": 14},
+      "sentence_length": {"avg": 18, "max": 30}
+    },
+    "academic_audience": {
+      "flesch_score": {"min": 30, "max": 60},
+      "grade_level": {"min": 12, "max": 18},
+      "sentence_length": {"avg": 22, "max": 35}
+    }
+  },
+  "optimization_strategies": {
+    "sentence_simplification": {
+      "break_long_sentences": true,
+      "reduce_subordinate_clauses": true,
+      "active_voice_preference": 0.8
+    },
+    "vocabulary_adjustment": {
+      "replace_complex_words": true,
+      "add_explanations": true,
+      "use_analogies": true
+    },
+    "structure_improvement": {
+      "add_transitions": true,
+      "improve_flow": true,
+      "enhance_coherence": true
+    }
+  },
+  "accessibility_features": {
+    "visual_impairment": {
+      "clear_structure": true,
+      "descriptive_headings": true,
+      "logical_flow": true
+    },
+    "cognitive_accessibility": {
+      "simple_language": true,
+      "short_paragraphs": true,
+      "clear_instructions": true
+    },
+    "language_learners": {
+      "common_vocabulary": true,
+      "cultural_context": true,
+      "grammar_simplification": true
+    }
+  }
+}

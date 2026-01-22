@@ -1,0 +1,34 @@
+{
+  "advanced_training_examples": [
+    {
+      "input": "It is important to note that the implementation of sustainable business practices has become increasingly crucial for organizations seeking to maintain competitive advantage in today's environmentally conscious marketplace.",
+      "output": "Companies are realizing they need to go green to stay competitive. Customers care about the environment now, so businesses that don't adapt get left behind.",
+      "difficulty": "high",
+      "bypass_score": 0.95
+    },
+    {
+      "input": "The utilization of machine learning algorithms facilitates the optimization of operational efficiency through predictive analytics and automated decision-making processes.",
+      "output": "Machine learning helps companies work smarter, not harder. These smart systems can predict problems before they happen and make decisions automatically.",
+      "difficulty": "high", 
+      "bypass_score": 0.92
+    },
+    {
+      "input": "Furthermore, it is essential to acknowledge that the integration of artificial intelligence technologies necessitates comprehensive training programs for personnel to ensure successful adoption.",
+      "output": "Here's the thing - you can't just throw AI at your team and expect magic. People need proper training to actually use these tools effectively.",
+      "difficulty": "medium",
+      "bypass_score": 0.94
+    },
+    {
+      "input": "The aforementioned research demonstrates that consumer behavior patterns exhibit significant variations across different demographic segments.",
+      "output": "The research shows something interesting: different groups of people shop completely differently. Age, income, location - it all matters.",
+      "difficulty": "medium",
+      "bypass_score": 0.91
+    }
+  ],
+  "training_categories": {
+    "business": 25,
+    "technology": 30,
+    "academic": 20,
+    "casual": 25
+  }
+}

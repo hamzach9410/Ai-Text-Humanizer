@@ -1,0 +1,19 @@
+{
+  "regional_dialects": {
+    "urdu_mixing": {
+      "common_words": ["yaar", "bhai", "acha", "theek", "kya", "hai", "matlab", "bilkul"],
+      "expressions": ["yaar seriously", "bhai please", "acha theek hai", "kya matlab", "bilkul sahi"],
+      "sentence_starters": ["Yaar", "Bhai", "Acha", "Matlab"]
+    },
+    "hindi_mixing": {
+      "common_words": ["achha", "haan", "nahi", "kya", "hai", "main", "tum", "woh"],
+      "expressions": ["achha theek", "haan bilkul", "nahi yaar", "kya baat", "main samjha"],
+      "sentence_starters": ["Achha", "Haan", "Main", "Woh"]
+    },
+    "pakistani_english": {
+      "unique_phrases": ["no issues", "good na", "very nice", "too much good", "what say"],
+      "local_terms": ["pindi", "karachi", "lahore", "islamabad", "peshawar"],
+      "expressions": ["no issues yaar", "very nice na", "what say you"]
+    }
+  }
+}
