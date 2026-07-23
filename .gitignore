@@ -91,3 +91,5 @@ temp/
 # Large datasets
 *.json.gz
 *.txt.gz
+.env
+.env.*
